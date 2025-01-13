@@ -27,5 +27,4 @@ Whether you're looking to revise concepts, explore code examples, or prepare for
 - [Pranav Hemanth](https://github.com/Pranavh-2004)
 - [Pranav Rajesh Narayan](https://github.com/pranav-rn)
 - [Pranav V Bhat](https://github.com/Prana-vvb)
-
-  (Pranav-maxxing)
+- [Nathan Matthew Paul](https://github.com/polarhive)

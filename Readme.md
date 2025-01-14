@@ -28,3 +28,4 @@ Whether you're looking to revise concepts, explore code examples, or prepare for
 - [Pranav Rajesh Narayan](https://github.com/pranav-rn)
 - [Pranav V Bhat](https://github.com/Prana-vvb)
 - [Nathan Matthew Paul](https://github.com/polarhive)
+- [Kshitij Kota](https://github.com/kshitijkota)

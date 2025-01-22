@@ -1,0 +1,12 @@
+**/.DS_Store
+**/.obsidian
+**/.venv
+**/.vscode/
+**/tmp
+*.bin
+*.elf
+*.hex
+*.o
+*.out
+*.vcd
+build/

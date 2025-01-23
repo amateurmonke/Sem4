@@ -1,8 +1,8 @@
 ; Find sum of all numbers in an array
 
 .DATA
-    A: .word 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ; Array A
-    SUM: .word 0 ; Sum of array elements
+A: .word 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ; Array A
+SUM: .word 0 ; Sum of array elements
 
 .TEXT
     LDR r1, =A ; Load array to r1 from memory.

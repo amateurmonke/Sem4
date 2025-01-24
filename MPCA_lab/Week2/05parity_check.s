@@ -6,7 +6,7 @@
     MOV r1, #0 ; r1 = 0 => Even parity, r1 = 1 => Odd parity
 
 loop:
-    EOR r1, r1, #1
+    EOR r1, r1, #1 ; Invert r1
     SUB r2, r0, #1
     ANDS r0, r0, r2
     BNE loop

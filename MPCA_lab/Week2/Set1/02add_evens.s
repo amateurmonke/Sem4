@@ -14,19 +14,11 @@ evensum: .WORD
 loop:
     LDR r2, [r0], #4
     TST r2, #1 ; Check if even
-    BEQ add
+    ADDEQ r4, r4, r2
 
     SUBS r3, r3, #1
-    BEQ end
     BNE loop
 
-add:
-    ADD r4, r4, r2
-    SUBS r3, r3, #1
-    BEQ end
-    BNE loop
-
-end:
     STR r4, [r1]
     SWI 0x11
 

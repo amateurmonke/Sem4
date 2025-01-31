@@ -10,13 +10,13 @@ SUM: .word 0 ; Sum of array elements
     ; and it can be incremented to access the next element.
     LDR r2, =SUM ; Load sum to r2 from memory.
     MOV r4, #0 ; Initialize sum.
-    MOV r5, #1 ; Initialize loop varible. Similar to 'i' in a C for loop
+    MOV r5, #1 ; Initialize loop counter. Similar to 'i' in a C for loop
 
 loop:
     LDR r3, [r1] ; Get value pointed to by r1 i.e an element from the array
     ADD r4, r4, r3 ; Add array element and store in r4.
     ADD r1, r1, #4 ; Increment r1 to point to the next element. Add 4 as each integer occupies 4 bytes.
-    ADD r5, r5, #1 ; Increment loop variable
+    ADD r5, r5, #1 ; Increment loop counter
     CMP r5, #11 ; Check loop condition. r5 < 11 (i < 11).
     BNE loop ; If r5 != 11, goto loop and execute again
 

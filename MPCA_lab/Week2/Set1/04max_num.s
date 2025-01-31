@@ -5,7 +5,7 @@ A: .WORD 10, 50, 41, 55, 30, 20, 11, 5, 100, 77
 
 .TEXT
     LDR r0, =A
-    MOV r1, #10 ; Loop variable
+    MOV r1, #10 ; Loop counter
     LDR r2, [r0], #4 ; Assume first element is max element
 
 loop:

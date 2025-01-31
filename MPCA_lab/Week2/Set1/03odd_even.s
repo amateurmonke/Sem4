@@ -10,7 +10,7 @@ LOCB: .WORD 0, 0, 0, 0, 0, 0
     LDR r1, =LOCA
     LDR r2, =LOCB
     
-    MOV r3, #10 ; Loop variable
+    MOV r3, #10 ; Loop counter
 
 loop:
     LDR r4, [r0], #4

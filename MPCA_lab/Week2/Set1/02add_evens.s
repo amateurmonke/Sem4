@@ -8,7 +8,7 @@ evensum: .WORD
     LDR r0, =A
     LDR r1, =evensum
 
-    MOV r3, #10 ; Loop variable
+    MOV r3, #10 ; Loop counter
     MOV r4, #0 ; Sum
 
 loop:

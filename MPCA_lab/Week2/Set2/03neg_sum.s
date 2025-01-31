@@ -8,7 +8,7 @@ negsum:.WORD
     LDR r0, =Array
     LDR r1, =negsum
 
-    MOV r2, #10 ; Loop variable
+    MOV r2, #10 ; Loop counter
     MOV r3, #0 ; Sum
 
 loop:

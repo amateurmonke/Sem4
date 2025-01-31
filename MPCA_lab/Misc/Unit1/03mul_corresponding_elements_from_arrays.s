@@ -8,7 +8,7 @@ C: .word
     LDR r6, =B
     LDR r7, =C
 
-    MOV r3, #3 ; Loop variable 'i'
+    MOV r3, #3 ; Loop counter 'i'
 
 loop:
     LDR r1, [r5], #4 ; Post indexing

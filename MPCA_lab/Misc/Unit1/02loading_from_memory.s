@@ -1,5 +1,10 @@
 ; Perform C = A + B
 
+.DATA
+A: .WORD 0x12345678
+B: .WORD 0x11111111
+C: .WORD 0x00000000
+
 .TEXT
     LDR r1, =A
     LDR r2, =B
@@ -12,9 +17,4 @@
 
     STR r5, [r6]
     SWI 0x11
-
-.DATA
-A: .WORD 0x12345678
-B: .WORD 0x11111111
-C: .WORD 0x00000000
 
